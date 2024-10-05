@@ -3,7 +3,7 @@
 @section('title', 'Prueba')
 
 @section('content')
-    @livewire('admin.users.index')
+    @livewire('admin.users.create')
 @stop
 
 @section('css')

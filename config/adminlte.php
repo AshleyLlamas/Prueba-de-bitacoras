@@ -426,7 +426,7 @@ return [
             ],
         ],
         'Sweetalert2' => [
-            'active' => false,
+            'active' => true,
             'files' => [
                 [
                     'type' => 'js',
@@ -447,6 +447,16 @@ return [
                     'type' => 'js',
                     'asset' => false,
                     'location' => '//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js',
+                ],
+            ],
+        ],
+        'Fontawesome' => [
+            'active' => true, //Activo
+            'files' => [
+                [
+                    'type' => 'css',
+                    'asset' => false, //Rutas de los archivos
+                    'location' => '//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css', //CND Actualizado
                 ],
             ],
         ],
